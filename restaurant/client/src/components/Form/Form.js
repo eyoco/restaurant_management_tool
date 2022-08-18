@@ -46,7 +46,7 @@ const Form = ({ currentId, setCurrentId }) => {
                 <TextField name="tags" variant="outlined" label="Table number" fullWidth value={mealData.tags} onChange={(e) => setMealData({ ...mealData, tags: e.target.value.split(',') })} />
                 <div className={classes.fileInput}><FireBase type="file" multiple={false} onDone={({base64}) => setMealData({ ...mealData, selectedFile: base64})} /></div>
                 <Button className={classes.buttonSubmit} variant="container" size="large" type="submit" fullWidth>Submit Meal</Button>
-                <Button variant="contained"  size="small" onClick={clear} fullWidth>Clear Info</Button>
+                <Button variant="contained"  size="small" onClick={clear} fullWidth>Clear Form</Button>
             </form>
         </Paper>
     );
