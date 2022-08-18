@@ -6,6 +6,9 @@ export default makeStyles({
     paddingTop: '33.33%',
     backgroundColor: 'rgba(0, 0, 0, 0)',
     backgroundBlendMode: 'darken',
+    borderStyle: 'solid',
+    borderWidth: '0 0 5px 0',
+    borderColor: 'rgb(201, 240, 153)'
   },
   border: {
     border: 'solid',
@@ -20,7 +23,10 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
-    backgroundColor: 'lightYellow'
+    backgroundColor: 'lightYellow',
+    borderStyle: 'solid',
+    borderColor: 'pink',
+    borderWidth: 'thick'
   },
   overlay: {
     position: 'absolute',
@@ -40,17 +46,20 @@ export default makeStyles({
   details: {
     padding: '0 16px',
     fontSize: 20,
-    color: 'purple'
+    fontFamily: "Papyrus",
+    color: 'rgb(135, 161, 104)'
   },
   title: {
     padding: '0 16px',
     fontSize: 36,
-    color: 'purple'
+    fontFamily: "Monaco",
+    color: 'rgb(135, 161, 104)'
   },
   messa: {
     padding: '0 16px',
     fontSize: 20,
-    color: 'purple'
+    fontFamily: "Monaco",
+    color: 'rgb(135, 161, 104)'
   },
   cardActions: {
     padding: '0 16px 8px 16px',
