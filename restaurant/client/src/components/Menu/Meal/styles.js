@@ -52,7 +52,7 @@ export default makeStyles({
   title: {
     padding: '0 16px',
     fontSize: 36,
-    fontFamily: "Papyrus",
+    fontFamily: "Monaco",
     color: 'rgb(135, 161, 104)'
   },
   messa: {
