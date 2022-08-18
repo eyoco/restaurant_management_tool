@@ -46,13 +46,13 @@ export default makeStyles({
   details: {
     padding: '0 16px',
     fontSize: 20,
-    fontFamily: "Papyrus",
+    fontFamily: "Monaco",
     color: 'rgb(135, 161, 104)'
   },
   title: {
     padding: '0 16px',
     fontSize: 36,
-    fontFamily: "Monaco",
+    fontFamily: "Papyrus",
     color: 'rgb(135, 161, 104)'
   },
   messa: {
